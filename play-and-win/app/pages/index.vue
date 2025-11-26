@@ -1,6 +1,5 @@
-<template>
-    <header class="header">
-        <h1 class="header__title">Eco-Conception Challenge</h1>
-    </header>
+<template >
+    <div class="text-black">
     <TheHeader />
+    </div>
 </template>
