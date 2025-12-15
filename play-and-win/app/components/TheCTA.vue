@@ -3,7 +3,7 @@ import { MoveRight } from 'lucide-vue-next';
 </script>
 
 <template>
-    <section class="mt-18 max-width-xl text-blue-950 flex flex-col items-center m-8 rounded-2xl ">
+    <section class="mt-18 max-w-4xl mx-auto text-blue-950 flex flex-col items-center my-8 px-4 rounded-2xl ">
         <div class="flex flex-row bg-linear-to-t from-green-500 to-sky-400 rounded-2xl shadow-2xl">
             <div>
                 <img class="rounded-2xl h-60 w-full object-cover mask-linear-50 mask-linear-from-60% mask-linear-to-80%" src="~/assets/cta1.jpg" alt="Stade de hockey">
