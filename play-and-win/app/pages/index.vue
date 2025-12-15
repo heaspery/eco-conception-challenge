@@ -1,5 +1,6 @@
 <template >
-    <div class="text-black">
+    <TheBanner />
     <TheHeader />
-    </div>
+    <section class="container flex flex-col items-center">
+    </section>
 </template>

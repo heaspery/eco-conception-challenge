@@ -1,21 +1,33 @@
 <script setup>
+import { Menu } from 'lucide-vue-next';
 </script>
 
 <template>
-    <div class="flex flex-row items justify-start gap-8">
-        <div class="flex flex-row  gap-4">
-            <div>
-                <img src="~/assets/logo.png" alt="logo milan cortina">
+    <div class="bg-blue-950 text-white w-full">
+        <div class="mx-auto flex w-full max-w-6xl flex-wrap items-center justify-between gap-4 px-4 py-4 md:flex-nowrap md:gap-8">
+            <div class="flex items-center gap-4 md:gap-6">
+                <div class="h-10 w-auto">
+                    <img src="~/assets/logo.png" alt="logo milan cortina" class="h-10 w-auto object-contain">
+                </div>
+                <nav id="links" class="hidden items-center gap-4 text-sm md:flex md:gap-6">
+                    <a href="#">Olympic torch Relay</a>
+                    <a href="#">Competition Schedule</a>
+                    <a href="#" class="underline">Play & Win</a>
+                </nav>
             </div>
-            <div>
-                <a href="#">Olympic torch Relay</a>
-                <a href="#">Competition Schedule</a>
-                <a href="#" class="font-bold">Play & Win</a>
+            <div class="flex flex-1 items-center justify-end gap-3 text-sm md:gap-4">
+                <div class="hidden items-center gap-3 sm:flex">
+                    <div class="border rounded-full px-4 py-2 bg-white text-blue-950 cursor-pointer hover:bg-gray-200 transition-colors">
+                        <a href="#">Sign In</a>
+                    </div>
+                    <div class="border rounded-full px-4 py-2 cursor-pointer hover:bg-blue-900 transition-colors">
+                        <a href="#">English</a>
+                    </div>
+                </div>
+                <button class="cursor-pointer hover:text-gray-200" aria-label="Open menu">
+                    <Menu />
+                </button>
             </div>
-        </div>
-        <div class="flex flex-row gap-4">
-            <a href="#">Sign In</a>
-            <a href="#">English</a>
         </div>
     </div>
 </template>
