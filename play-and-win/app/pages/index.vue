@@ -3,4 +3,5 @@
     <TheHeader />
     <TheHeroSection />
     <TheQuizzes />
+    <TheWinSection />
 </template>
