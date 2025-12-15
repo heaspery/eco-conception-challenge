@@ -4,4 +4,5 @@
     <TheHeroSection />
     <TheQuizzes />
     <TheWinSection />
+    <TheCTA />
 </template>
