@@ -43,7 +43,7 @@ function toggleLoadMore() {
             <TheQuizCard v-if="showMore" v-for="quiz in quizzes2" :key="quiz.sportLogo" :sport-name="quiz.sportName"
                 :sport-logo="quiz.sportLogo" />
         </div>
-        <button class="cursor-pointer mt-6 border border-blue-950 rounded-full px-6 py-2 text-blue-950 font-semibold hover:bg-blue-950 hover:text-white transition-colors"
+        <button class="cursor-pointer mt-8 mb-8 border border-blue-950 rounded-full px-6 py-2 text-blue-950 font-semibold hover:bg-blue-950 hover:text-white transition-colors"
             @click="toggleLoadMore">
             {{ showMore ? 'Voir moins de quiz' : 'Voir plus de quiz' }}
         </button>
