@@ -5,7 +5,7 @@
 <template>
     <section class="w-full bg-linear-to-t from-green-500 to-sky-400 py-8">
         <div class="mx-auto w-full max-w-6xl px-4">
-            <div class="relative overflow-hidden rounded-2xl shadow-lg">
+            <div class="relative overflow-hidden rounded-2xl shadow-lg text-white">
                 <img src="~/assets/hero.jpg" alt="hero" class="h-80 w-full object-cover md:h-[480px]">
                 <div aria-hidden="true" class="absolute inset-0 z-0 bg-black/50 pointer-events-none"></div>
                 <div id="allianz"

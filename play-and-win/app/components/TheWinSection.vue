@@ -6,7 +6,7 @@
     <div class="flex flex-col items-center">
         <div class="text-blue-950 flex flex-col items-center gap-4 mb-12">
             <h1 class="text-3xl font-bold">Joue et participe au concours</h1>
-            <p class="md:text-lg text-base text-shadow-amber-400 text-center"><strong>Allianz</strong> propose un
+            <p class="text-base text-shadow-amber-400 text-center"><strong>Allianz</strong> propose un
                 concours te permettant de gagner <br>des avantages exclusifs aux Jeux Olympiques de Milan Cortina 2026!</p>
         </div>
         <div class="max-w-4xl p-8 rounded-2xl shadow-2xl text-blue-950 flex flex-col gap-4 md:gap-6 items-center">
