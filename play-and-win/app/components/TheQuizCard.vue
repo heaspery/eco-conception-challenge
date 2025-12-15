@@ -18,7 +18,7 @@ const logoSrc = computed(() => {
 </script>
 
 <template>
-    <div class="flex flex-col items-center gap-2 rounded-2xl border bg-blue-950 p-4 text-center shadow-sm backdrop-blur-sm hover:scale-105 hover:shadow-md transition-transform">
+    <div class="cursor-pointer flex flex-col items-center gap-2 rounded-2xl border bg-blue-950 p-4 text-center shadow-sm backdrop-blur-sm hover:scale-105 hover:shadow-md transition-transform">
         <div class="flex h-20 w-20 items-center justify-center rounded-full text-white">
             <img v-if="logoSrc" :src="logoSrc" :alt="`Logo ${sportName}`" class="h-20 w-20 object-contain" loading="lazy">
         </div>
