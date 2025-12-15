@@ -13,7 +13,7 @@
                     <span>Proposé par</span>
                     <img src="~/assets/allianz.svg" alt="Logo Allianz" class="h-4 w-auto md:h-5">
                 </div>
-                <div class="absolute inset-0 z-10 flex items-end justify-start p-6 md:items-center md:p-10">
+                <div class="absolute inset-0 z-10 flex items-end justify-start p-6  md:p-10">
                     <div id="CTA" class="md:px-6 md:py-4 flex flex-col gap-4">
                         <h1 class="text-white text-4xl font-bold md:text-3xl">Play and win</h1>
                         <p class="text-base md:text-lg">

@@ -13,7 +13,7 @@
         </div>
         <div class="flex flex-row gap-8">
             <a href="#">Tickets</a>
-            <a href="#">Hospitality</a>
+            <a href="#">Hospitalités</a>
             <a href="#">Boutique</a>
         </div>
     </div>

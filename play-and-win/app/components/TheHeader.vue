@@ -1,5 +1,6 @@
 <script setup>
 import { Menu } from 'lucide-vue-next';
+import { ChevronDown } from 'lucide-vue-next';
 </script>
 
 <template>
@@ -10,18 +11,18 @@ import { Menu } from 'lucide-vue-next';
                     <img src="~/assets/logo.png" alt="logo milan cortina" class="h-10 w-auto object-contain">
                 </div>
                 <nav id="links" class="hidden items-center gap-4 text-sm md:flex md:gap-6">
-                    <a href="#">Olympic torch Relay</a>
-                    <a href="#">Competition Schedule</a>
+                    <a href="#">Relais de la Flamme Olympique</a>
+                    <a href="#">Calendrier</a>
                     <a href="#" class="underline">Play & Win</a>
                 </nav>
             </div>
             <div class="flex flex-1 items-center justify-end gap-3 text-sm md:gap-4">
                 <div class="hidden items-center gap-3 sm:flex">
                     <div class="border rounded-full px-4 py-2 bg-white text-blue-950 cursor-pointer hover:bg-gray-200 transition-colors">
-                        <a href="#">Sign In</a>
+                        <a href="#">Se connecter</a>
                     </div>
                     <div class="border rounded-full px-4 py-2 cursor-pointer hover:bg-blue-900 transition-colors">
-                        <a href="#">English</a>
+                        <a href="#"> <ChevronDown class="inline-block h-4 w-4 mr-1"/>Français</a>
                     </div>
                 </div>
                 <button class="cursor-pointer hover:text-gray-200" aria-label="Open menu">
