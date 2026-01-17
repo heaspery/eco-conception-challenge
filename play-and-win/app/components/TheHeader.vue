@@ -8,7 +8,7 @@ import { ChevronDown } from 'lucide-vue-next';
         <div class="mx-auto flex w-full max-w-6xl flex-wrap items-center justify-between gap-4 px-4 py-4 md:flex-nowrap md:gap-8">
             <div class="flex items-center gap-4 md:gap-6">
                 <div class="h-10 w-auto">
-                    <NuxtImg src="assets/logo.png" alt="logo milan cortina" class="h-10 w-auto object-contain" />
+                    <NuxtImg src="/assets/logo.png" alt="logo milan cortina" class="h-10 w-auto object-contain" />
                 </div>
                 <nav id="links" class="hidden items-center gap-4 text-sm md:flex md:gap-6">
                     <a href="#">Relais de la Flamme Olympique</a>
