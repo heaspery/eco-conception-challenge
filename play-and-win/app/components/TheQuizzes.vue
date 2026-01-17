@@ -37,10 +37,10 @@ function toggleLoadMore() {
             <h1 class="text-3xl font-bold text-blue-950">Quiz sur le sport</h1>
         </div>
         <div class="grid w-full grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-            <TheQuizCard v-for="quiz in quizzes1" :key="quiz.sportLogo" :sport-name="quiz.sportName"
+            <TheQuizCard v-for="quiz in quizzes1" :src="`assets/logo-sports/${quiz.sportLogo}`" :key="quiz.sportLogo" :sport-name="quiz.sportName"
                 :sport-logo="quiz.sportLogo" />
 
-            <TheQuizCard v-if="showMore" v-for="quiz in quizzes2" :key="quiz.sportLogo" :sport-name="quiz.sportName"
+            <TheQuizCard v-if="showMore" v-for="quiz in quizzes2" :src="`assets/logo-sports/${quiz.sportLogo}`" :key="quiz.sportLogo" :sport-name="quiz.sportName"
                 :sport-logo="quiz.sportLogo" />
         </div>
         <button class="cursor-pointer mt-8 mb-8 border border-blue-950 rounded-full px-6 py-2 text-blue-950 font-semibold hover:bg-blue-950 hover:text-white transition-colors"
