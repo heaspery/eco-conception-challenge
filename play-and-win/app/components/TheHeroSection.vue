@@ -6,7 +6,7 @@
     <section class="w-full bg-linear-to-t from-green-500 to-sky-400 py-8">
         <div class="mx-auto w-full max-w-6xl px-4">
             <div class="relative overflow-hidden rounded-2xl shadow-lg text-white">
-                <NuxtImg src="/assets/hero.jpg" alt="hero" class="h-80 w-full object-cover md:h-[480px]"/>
+                <NuxtImg preset="bigPictures" src="/assets/hero.jpg" alt="hero" class="h-80 w-full object-cover md:h-[480px]"/>
                 <div aria-hidden="true" class="absolute inset-0 z-0 bg-black/50 pointer-events-none"></div>
                 <div id="allianz"
                     class="absolute right-4 top-4 z-20 flex items-center gap-2 rounded-full bg-white px-3 py-1 text-xs font-medium text-blue-950 shadow md:right-6 md:top-6 md:text-sm">

@@ -19,7 +19,7 @@ import { MoveRight } from 'lucide-vue-next';
                 </div>
             </div>
              <div>
-                     <NuxtImg class="rounded-2xl h-60 w-full object-cover mask-l-from-50% mask-l-to-90%" src="/assets/cta3.jpg" alt="Stade de hockey" />
+                     <NuxtImg preset="middlePictures" class="rounded-2xl h-60 w-full object-cover mask-l-from-50% mask-l-to-90%" src="/assets/cta3.jpg" alt="Stade de hockey" />
             </div>
         </div>
 
