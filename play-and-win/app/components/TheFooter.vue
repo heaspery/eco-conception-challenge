@@ -27,7 +27,7 @@ import { Youtube } from 'lucide-vue-next';
                         class="logo-white h-8 w-auto object-contain" />
                     <NuxtImg src="/assets/logo-partenaires/Logo_of_Deloitte.svg" alt="logo milan cortina"
                         class="logo-white h-8 w-auto object-contain" />
-                    <NuxtImg src="/assets/logo-partenaires/P&G_Logo.svg" alt="logo milan cortina"
+                    <NuxtImg src="/assets/logo-partenaires/PG.svg" alt="logo milan cortina"
                         class="logo-white h-8 w-auto object-contain" />
                     <NuxtImg src="/assets/logo-partenaires/samsung.svg" alt="logo milan cortina"
                         class=" h-8 w-auto object-contain" />

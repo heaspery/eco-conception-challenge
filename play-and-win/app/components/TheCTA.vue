@@ -6,7 +6,7 @@ import { MoveRight } from 'lucide-vue-next';
     <section class="mt-18 max-w-4xl mx-auto text-blue-950 flex flex-col items-center my-8 px-4 rounded-2xl ">
         <div class="flex flex-row bg-linear-to-t from-green-500 to-sky-400 rounded-2xl shadow-2xl">
             <div>
-                <NuxtImg class="rounded-2xl h-60 w-full object-cover mask-linear-50 mask-linear-from-60% mask-linear-to-80%" src="/assets/cta1.jpg" alt="Stade de hockey" />
+                <NuxtImg preset="middlePictures" class="rounded-2xl h-60 w-full object-cover mask-linear-50 mask-linear-from-60% mask-linear-to-80%" src="/assets/cta1.jpg" alt="Stade de hockey" />
             </div>
             <div class=" rounded-2xl flex flex-col p-3 gap-8">
                 <div class="text-white p-2">
