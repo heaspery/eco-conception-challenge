@@ -15,25 +15,25 @@ import { Youtube } from 'lucide-vue-next';
                     <h2 class="font-bold text-lg mb-6">Partenaires Olympiques et Paralympiques Mondiaux</h2>
                 </div>
                 <div class=" grid grid-cols-3 sm:grid-cols-5 gap-6 items-center justify-items-center max-w-4xl mx-auto">
-                    <NuxtImg src="assets/logo-partenaires/Airbnb_Logo_Bélo.svg" alt="logo milan cortina"
+                    <NuxtImg src="/assets/logo-partenaires/Airbnb_Logo_Bélo.svg" alt="logo milan cortina"
                         class="logo-white h-8 w-auto object-contain" />
-                    <NuxtImg src="assets/logo-partenaires/Alibaba_en_logo.svg" alt="logo milan cortina"
+                    <NuxtImg src="/assets/logo-partenaires/Alibaba_en_logo.svg" alt="logo milan cortina"
                         class="logo-white h-8 w-auto object-contain" />
-                    <NuxtImg src="assets/logo-partenaires/Allianz.svg" alt="logo milan cortina"
+                    <NuxtImg src="/assets/logo-partenaires/Allianz.svg" alt="logo milan cortina"
                         class="logo-white h-8 w-auto object-contain" />
-                    <NuxtImg src="assets/logo-partenaires/Coca-Cola_logo.svg" alt="logo milan cortina"
+                    <NuxtImg src="/assets/logo-partenaires/Coca-Cola_logo.svg" alt="logo milan cortina"
                         class="logo-white h-8 w-auto object-contain" />
-                    <NuxtImg src="assets/logo-partenaires/corona.svg" alt="logo milan cortina"
+                    <NuxtImg src="/assets/logo-partenaires/corona.svg" alt="logo milan cortina"
                         class="logo-white h-8 w-auto object-contain" />
-                    <NuxtImg src="assets/logo-partenaires/Logo_of_Deloitte.svg" alt="logo milan cortina"
+                    <NuxtImg src="/assets/logo-partenaires/Logo_of_Deloitte.svg" alt="logo milan cortina"
                         class="logo-white h-8 w-auto object-contain" />
-                    <NuxtImg src="assets/logo-partenaires/P&G_Logo.svg" alt="logo milan cortina"
+                    <NuxtImg src="/assets/logo-partenaires/P&G_Logo.svg" alt="logo milan cortina"
                         class="logo-white h-8 w-auto object-contain" />
-                    <NuxtImg src="assets/logo-partenaires/samsung.svg" alt="logo milan cortina"
+                    <NuxtImg src="/assets/logo-partenaires/samsung.svg" alt="logo milan cortina"
                         class=" h-8 w-auto object-contain" />
-                    <NuxtImg src="assets/logo-partenaires/TCL.svg" alt="logo milan cortina"
+                    <NuxtImg src="/assets/logo-partenaires/TCL.svg" alt="logo milan cortina"
                         class=" h-8 w-auto object-contain" />
-                    <NuxtImg src="assets/logo-partenaires/Visa_2021.svg" alt="logo milan cortina"
+                    <NuxtImg src="/assets/logo-partenaires/Visa_2021.svg" alt="logo milan cortina"
                         class="logo-white h-8 w-auto object-contain" />
                 </div>
                 <div>
