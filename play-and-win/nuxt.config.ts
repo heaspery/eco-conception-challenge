@@ -25,7 +25,7 @@ export default defineNuxtConfig({
       },
       smallPictures: {
         modifiers: {
-          quality: 5,
+          quality: 1,
         }
       } 
     }
