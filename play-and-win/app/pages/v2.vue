@@ -3,7 +3,6 @@ import TheFooter2 from '~/components/v2/TheFooter2.vue';
 import TheCTA3 from '~/components/v2/TheCTA3.vue';
 import TheCTA4 from '~/components/v2/TheCTA4.vue';
 import TheSocials2 from '~/components/v2/TheSocials2.vue';
-import TheQuizzes2 from '~/components/v2/TheQuizzes2.vue';
 
 </script>
 
@@ -11,7 +10,7 @@ import TheQuizzes2 from '~/components/v2/TheQuizzes2.vue';
     <TheBanner />
     <TheHeader />
     <TheHeroSection />
-    <TheQuizzes2 />
+    <TheQuizzes />
     <TheWinSection />
     <TheCTA3 />
     <TheSocials2 />
